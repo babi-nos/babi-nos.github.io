@@ -1,0 +1,114 @@
+<!DOCTYPE html> 
+<html>
+    <head> 
+        <title>Contact me</title>
+        <meta charset="utf-8" />                                                                               <!--Ce tag meta nous permet de mettre des accents-->
+        <meta name="viewport" content="width=device-width,initial-scale=1">                                    <!--Pour rendre notre formulaire responsive -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> <!--Cdn bootstrap css -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>               <!--CDN jquerry pour javascript-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>  <!--Cdn bootstrap javascript -->
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin' rel='stylesheet' type='text/css'><!--J'ai linker une font lato --> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script> <!--Footer-->
+        <link rel="stylesheet" href="css/style.css">                                                          <!--Je link ma page css a ma page html-->
+        <script src="js/script.js"></script>
+
+
+    </head>
+    <body>
+
+        <header class="centerh">
+            <h1 class="he"><a href="../index.html"><span><strong class="bi-book-half"></strong>REVISION DES BASES<strong class="bi-book-half"></span></strong></a></h1> 
+        </header>
+
+            <div class="container contact-form">
+
+                
+                <!-- <div class="divider"></div> -->
+                <div class="heading">
+                    <h2>Contact me</h2>
+                </div>
+                <form id="contact-form" method="post" action="" role="form"> <!--metod=post pour recuperer les information -->
+                    <div class="row">
+                        <div class="col-lg-6"> <!--colonne-large-6point + 6point = 12 point que je doit donner-->
+                            <label for="firstname" class="form-label">Prenom <span class="blue"> *</span></label> 
+                            <input id="firstname" type="text" name="firstname" class="form-control" placeholder="You first name" value="" >
+                            <p class="comments"></p>
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="name" class="form-label">Name <span class="blue"> *</span></label>
+                            <input id="name" type="text" name="name" class="form-control" placeholder="Your name" value="">
+                            <p class="comments"></p>
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="email" class="form-label">@Mail <span class="blue"> *</span></label>
+                            <input id="email" type="text" name="email" class="form-control" placeholder="Your Email" value="">
+                            <p class="comments"></p>
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="phone" class="form-label">Your Phone</label>
+                            <input id="phone" type="text" name="phone" class="form-control" placeholder="Your phone" value="">
+                            <p class="comments"></p>
+                        </div>
+                        
+
+                        <div class="sujet">
+                            <label class="form-label" for="sujet" >subject<span class="blue"> *</span></label>
+                            <select class="form-select" id="sujet"  name="sujet" >
+                                <option value="">What is the subject of your message?</option>
+                                <option value="Un simple echange.">A simply exchange.</option>
+                                <option value="J'ai une question a te poser.">I have a question for you ! </option>
+                                <option value="Autre.s">other</option>
+                            </select>
+                            <p class="comments"></p>
+                        </div>
+
+                        <div>
+                            <label for="message" class="form-label">Message <span class="blue"> *</span></label>
+                            <textarea id="message" name="message" class="form-control" placeholder="Votre Message" rows="4"></textarea>
+                            <p class="comments"></p>
+                        </div>
+                        <div>
+                            <p class="blue"><strong>* This information is required.</strong></p>
+                        </div>
+                        <div>
+                            <input type="submit" class="button1" value="SEND">
+                        </div>    
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="divider2"></div>
+         
+            <footer class="footer">
+                 <div class="social-icon">
+                    <li ><a class="social-icon__link" href="https://twitter.com/?lang=fr" target="_blank">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a></li>
+                  <li><a class="social-icon__link" href="https://fr.linkedin.com/"  target="_blank">
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a></li>
+                  <li><a class="social-icon__link" href="https://www.instagram.com/?hl=fr" target="_blank">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a></li>
+                 </div>
+                  
+                
+                <div class="menu">
+                    <li><a class="menu__link" href="/index.html">Home</a></li>
+                  <li><a class="menu__link" href="#">About</a></li>
+                  <li><a class="menu__link" href="#">Services</a></li>
+                  <li><a class="menu__link" href="#">Team</a></li>
+                  <li><a class="menu__link" href="../FORM CONTACT/contact.html">Contact</a></li>
+                </div>
+                  
+            
+                
+                <p>&copy;2022 Sachy Marvin | All Rights Reserved</p>
+            </footer> 
+        
+    </body>
+</html>
+
