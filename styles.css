@@ -4,6 +4,19 @@
   }
 }
 @media screen and (max-width: 768px){
+  .heading a{
+    padding-top: 10px !important ;
+  }
+  .heading strong {
+    display: none !important;
+  }
+  .nav {
+    padding-top: 5px !important;
+  }
+  .nav li {
+    display: block !important;
+    padding: 5px !important;
+  }
   .arrow a{
     left: 50%;
     top: 50%;
@@ -18,7 +31,25 @@
   .arrow-top, .arrow-bottom {
     right: 0px;
   }
+  #html li {
+    list-style: none;
+    padding-left: 0;
+  }
+  #css ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  #css ol {
+    list-style: none;
+    padding-left: 0;
+  }
+  #bootstrap li{
+    list-style: none;
+    padding-left: 0;
+  }
+  
 }
+
  
 /*general*/
 
@@ -63,12 +94,14 @@ body {
   color: rgba(255, 255, 255, 0.552);
   display: flex;
   justify-content: center;
+  text-align: center;
   padding: 50px;
   padding-bottom: 0;
   text-decoration: none;
   font-size: 1.4em;
   font-family: 'Philosopher', sans-serif; 
 }
+
 .heading strong {
   padding-left: 10px;
   padding-right: 10px;
@@ -170,6 +203,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+#html ul{
+  padding-left: 0;
 }
 .title {
   padding-top: 20px;
@@ -347,6 +383,9 @@ svg {
   align-items: center;
   flex-direction: column;
   margin: auto;
+}
+footer p{
+  text-align: center;
 }
 
 .social-icon,
