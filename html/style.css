@@ -1,3 +1,23 @@
+@media screen and (max-width: 768px){
+    .heading a{
+      padding-top: 10px !important ;
+      text-align: center;
+    }
+    .heading strong {
+      display: none !important;
+    }
+    #questions li{
+        text-align: center !important;
+        list-style: none;
+        padding: 0px !important;
+    }
+    #questions img{
+        width: 100% !important;
+    }
+    .no-css {
+        border-left: 0px!important;
+    }
+}
 /*GENARAL*/
 
 * {
@@ -85,7 +105,7 @@ body {
     font-size: 1.8em;
 }
 #questions .because {
-    padding: 15px;
+    padding: 0px;
     text-align: left;
     margin-left: auto;
     margin-right: auto;

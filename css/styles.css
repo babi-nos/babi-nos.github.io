@@ -1,3 +1,25 @@
+@media screen and (max-width: 768px){
+    .heading a{
+      padding-top: 10px !important ;
+      text-align: center;
+    }
+    .heading strong {
+      display: none !important;
+    }
+    #explication p img{
+        width: 100% !important;
+    }
+    #exemple .stone h2{
+        padding: 10px !important;
+    }
+    #conclusion img{
+        width: 100% !important;
+    }
+    #conclusion h2{
+        padding: 10px !important;
+    }
+}
+
 /*GENARAL*/
 
 * {
@@ -71,13 +93,12 @@ body {
 #explication{ 
     text-align: center;
 }
-#explication h1{
-    margin: 30px;
-    font-size: 2.3em;
+#explication p{
+    padding: 10px;
+    font-size: 1.2em;
 }
-#explication img{
+#explication p img{
     padding-top: 25px;
-    padding-bottom: 25px;
     margin: auto;
     width: 50%;
 }
@@ -180,28 +201,25 @@ body {
 #conclusion ul p{
     margin: auto;
     text-align: center;
-    padding-bottom: 5px;
+    /* padding-bottom: 1px; */
     font-size: 1.4em;
     color: #000000;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
-    width: 40%;
+    width: 60%;
 }
 #conclusion  ul{
     padding: 0;
 }
 #conclusion img{
     position: relative;
-    width: 50%;
+    width: 35%;
     display: block;
     margin: auto;
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
 }
 #conclusion h2{
     text-align: center;
-    padding: 50px;
+    padding: 40px;
 }
 #conclusion li{
     font-size: 1.4em;
