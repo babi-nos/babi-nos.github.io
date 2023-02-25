@@ -133,7 +133,8 @@ body {
 
 .exemple {
     color: #ffffff;
-    margin: 25px;
+    margin-top: -10px;
+    margin-bottom: 25px;
     text-align: center;
 }
 .css {

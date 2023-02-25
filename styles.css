@@ -29,12 +29,12 @@
   .arrow {
     height: 100px;
   }
-  .arrow-top, .arrow-bottom {
-    right: 0px;
-  }
   #html li {
     list-style: none;
     padding-left: 0;
+  }
+  .liste li:last-child{
+    margin-bottom: -20px;
   }
   #css ul {
     list-style: none;

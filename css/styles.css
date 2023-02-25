@@ -18,6 +18,10 @@
     #conclusion h2{
         padding: 10px !important;
     }
+    .menu li {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
 }
 
 /*GENARAL*/
