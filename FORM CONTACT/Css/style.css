@@ -7,6 +7,10 @@
     .heading strong {
       display: none ;
     }
+    .menu li {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
 }
 
 /*GENERAL*/
@@ -216,6 +220,7 @@ h2 {
     color: #000000;
 }
 .footer p {
+    text-align: center;
     color: #fff;
     margin: 15px 0 10px 0;
     font-size: 1rem;

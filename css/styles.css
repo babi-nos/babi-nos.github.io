@@ -308,6 +308,7 @@ body {
     color: #000000;
 }
 .footer p {
+    text-align: center;
     color: #fff;
     margin: 15px 0 10px 0;
     font-size: 1rem;

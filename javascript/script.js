@@ -6,7 +6,6 @@ const btn = document.querySelector('#btn');
 const img = document.getElementById('parat');
 
 btn.addEventListener('click', (e) => {
-    console.log('helo');
     parat.classList.add("message2")
 })
 
@@ -44,8 +43,6 @@ const cursor = document.querySelectorAll('.cursor');
 
 theme.forEach((items) => {                        // Ici on fait un Foreach de tout nos class theme. J'appelle dans les (item) jaurais pu appeler comme je veux. Donc la place un event click sur tout mes class theme 
     items.addEventListener('click', (e) => {
-        // console.log(e.target.id);
-        // document.body.classList.remove("darkTheme", "yellowTheme", "grisTheme");
 
         switch (e.target.id) {
             case "darke":

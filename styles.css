@@ -1,6 +1,7 @@
 @media screen and (max-width: 1200px){
   #bootstrap .rotate {
-    width: 70%;
+    width: 100%;
+    padding: 0 !important;
   }
 }
 @media screen and (max-width: 768px){
@@ -46,7 +47,17 @@
   #bootstrap li{
     list-style: none;
     padding-left: 0;
+    text-align: center;
   }
+  #bootstrap img {
+    width: 70% !important;
+  
+    transition-duration: 2.8s;
+  }
+  .menu li {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
   
 }
 
@@ -360,12 +371,12 @@ svg {
   display: flex;
   justify-content: center;
 }
+.title-bootstrap {
+  text-align: center;
+}
 #bootstrap img {
   width: 70%;
-  padding-top: 25px;
-  padding-bottom: 25px;
   transition-duration: 2.8s;
-  transition-property: transform;
 }
 #bootstrap img:hover {
   transform: rotate(720deg);
@@ -384,10 +395,6 @@ svg {
   flex-direction: column;
   margin: auto;
 }
-footer p{
-  text-align: center;
-}
-
 .social-icon,
 .menu {
   list-style: none;
@@ -434,6 +441,7 @@ footer p{
   margin: 15px 0 10px 0;
   font-size: 1rem;
   font-weight: 300;
+  text-align: center;
 }
 .social-icon__link:hover {
   transform: translateY(-10px);
